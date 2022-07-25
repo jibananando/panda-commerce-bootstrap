@@ -11,7 +11,7 @@
 
 <body>
     <header class="container">
-        <nav class="navbar navbar-expand-lg bg-light">
+        <nav class="navbar navbar-expand-lg fixed-top bg-light">
             <div class="container">
                 <a class="navbar-brand" href="#"><img src="images/logo.png" alt=""
                         class="d-inline-block align-text-top"></a>
@@ -26,13 +26,13 @@
                             <a class="nav-link active" aria-current="page" href="#">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Shoes</a>
+                            <a class="nav-link" href="#shoes">Shoes</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Backpack</a>
+                            <a class="nav-link" href="#backpack">Backpack</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Subscribe</a>
+                            <a class="nav-link" href="#subscribe">Subscribe</a>
                         </li>
 
                     </ul>
@@ -134,7 +134,115 @@
                 </div>
             </div>
         </section>
+        <!-- shoes area start -->
+        <section class="container" id="shoes">
+            <div class=" d-flex justify-content-between align-items-center">
+                <h1 class="mt-5 mb-5">Shoes</h1>
+                <h4 class="text-warning">see all</h4>
+            </div>
+            <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
+                <div class="col">
+                    <div class="card border border-0 shadow-lg p-3 mb-5 bg-body rounded-4">
+                        <img src="images/shoes/shoe-1.png" class="card-img-top" alt="...">
+                        <div class="card-body text-center gap-2">
+                            <h4 class="card-title">Reebok Dart Men's Shoes</h4>
+                            <p class="card-text">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet
+                                sint.</p>
+                            <h4>1289$</h4>
+                            <div class="btn btn-warning">Buy Now</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card border border-0 shadow-lg p-3 mb-5 bg-body rounded-4">
+                        <img src="images/shoes/shoe-2.png" class="card-img-top" alt="...">
+                        <div class="card-body text-center gap-2">
+                            <h4 class="card-title">Reebok Pump</h4>
+                            <p class="card-text">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet
+                                sint.</p>
+                            <h4>799$</h4>
+                            <div class="btn btn-warning">Buy Now</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card border border-0 shadow-lg p-3 mb-5 bg-body rounded-4">
+                        <img src="images/shoes/shoe-3.png" class="card-img-top" alt="...">
+                        <div class="card-body text-center gap-2">
+                            <h4 class="card-title">Reebok All Terrain</h4>
+                            <p class="card-text">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet
+                                sint.</p>
+                            <h4>699$</h4>
+                            <div class="btn btn-warning">Buy Now</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- shoes area end -->
+        <!-- backpack area start -->
+        <section class="container" id="backpack">
+            <div class=" d-flex justify-content-between align-items-center">
+                <h1 class="mt-5 mb-5">Backpack</h1>
+                <h4 class="text-warning">see all</h4>
+            </div>
+            <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
+                <div class="col">
+                    <div class="card border border-0 shadow-lg p-3 mb-5 bg-body rounded-4">
+                        <img src="images/bags/bag-1.png" class="card-img-top" alt="...">
+                        <div class="card-body text-center gap-2">
+                            <h4 class="card-title">Ison Backpack</h4>
+                            <p class="card-text">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet
+                                sint.</p>
+                            <h4>1289$</h4>
+                            <div class="btn btn-warning">Buy Now</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card border border-0 shadow-lg p-3 mb-5 bg-body rounded-4">
+                        <img src="images/bags/bag-2.png" class="card-img-top" alt="...">
+                        <div class="card-body text-center gap-2">
+                            <h4 class="card-title">Biaowang Backpack</h4>
+                            <p class="card-text">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet
+                                sint.</p>
+                            <h4>799$</h4>
+                            <div class="btn btn-warning">Buy Now</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card border border-0 shadow-lg p-3 mb-5 bg-body rounded-4">
+                        <img src="images/bags/bag-3.png" class="card-img-top" alt="...">
+                        <div class="card-body text-center gap-2">
+                            <h4 class="card-title">Dxyizu WS54 Smart</h4>
+                            <p class="card-text">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet
+                                sint.</p>
+                            <h4>699$</h4>
+                            <div class="btn btn-warning">Buy Now</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- backpack area end -->
+        <!-- mail box atart -->
+        <section style="height: 400px;" id="subscribe"
+            class="container rounded-4 bg-success d-flex justify-content-center align-items-center">
+            <form>
+                <h1>LET'S STAY IN TOUCH</h1>
+                <p>Get updates on sales specials and more</p>
+                <div class="mb-3 d-flex justify-content-center">
+                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                    <button type="submit" class="btn btn-warning">Submit</button>
+                </div>
+            </form>
+        </section>
     </main>
+    <!-- footer area -->
+    <footer class="mt-5 text-center">
+        <p><small>@2023. Panda commerce. All rights reserved. Sofia, Bulgariya.</small></p>
+    </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
         crossorigin="anonymous"></script>
